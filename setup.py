@@ -2,14 +2,14 @@ import setuptools
 setuptools.setup(
     name = 'MSvaluesPy',
     packages = setuptools.find_packages(),
-    version = '1.3.2',
+    version = '1.3.3',
     license = 'MIT',
     description = 'A Python package for deriving quantities based on Mendelian sampling values',
     long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
     author = 'Abdulraheem Musa, Norbert Reinsch',
     author_email = 'musa@fbn-dummerstorf.de, reinsch@fbn-dummerstorf.de',
     url = 'https://github.com/aromemusa/MSvaluesPy',
-    download_url = 'https://github.com/aromemusa/MSvaluesPy/blob/main/dist/MSvaluesPy-1.3.2.tar.gz',
+    download_url = 'https://github.com/aromemusa/MSvaluesPy/blob/main/dist/MSvaluesPy-1.3.3.tar.gz',
     keywords = ['Mendelian sampling', 'variance', 'covariance', 'similarity', 'selection', 'optimization'],
     install_requires = [
         'numpy',
